@@ -1,0 +1,86 @@
+body, h2, h5, p, a, button {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.trips-page {
+    padding: 20px;
+}
+
+.trips-page h2 {
+    font-weight: 700;
+    color: #0056b3;
+}
+
+.search-filter .form-control {
+    border-radius: 5px;
+}
+
+.search-filter .btn-primary {
+    background-color: #0056b3;
+    border: none;
+    font-weight: 500;
+}
+
+.featured-trips .trip-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.featured-trips .trip-card:hover {
+    transform: scale(1.03);
+}
+
+.featured-trips .trip-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.featured-trips .card-body {
+    padding: 15px;
+}
+
+.featured-trips .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0056b3;
+}
+
+.featured-trips .card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.featured-trips .btn-primary {
+    background-color: #ff5722;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .featured-trips .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .search-filter .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}
